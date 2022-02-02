@@ -65,28 +65,56 @@ footer div {
 footer a {
     color: #024e76;
 }
-
+/* Hero Style Start */
 section {
     padding: 60px;
-}
-/* Hero Style Start */
+    background-image: url("../images/hero-bg.jpeg");
+  }
 .hero {
-    background-image: url("run-buddy/assets/css/run-buddy/assets/images/hero-bg.jpg");
+    background-image: url("../images/hero-bg.jpeg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
-}
-/* Hero Style End */
+  }
+  /* Hero Style End */
 .hero-form {
     background-color: #fce138;
     color: #024e76;
     padding: 20px;
     width: 500px;
-    border-style: solid;
-    border-width: 3px;
     border: 3px solid #024e76;
     bottom: 120px;
     right: 140px;
     position: absolute
 }
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+  
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+  
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.hero-form label {
+    margin: 0 5px;
+}
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  /* HERO STYLES END *

@@ -71,10 +71,11 @@ section {
 }
 /* Hero Style Start */
 .hero {
-    background-image: url(run-buddy\assets\images\hero-bg.jpg);
+    background-image: url("run-buddy/assets/css/run-buddy/assets/images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 /* Hero Style End */
 .hero-form {
@@ -84,5 +85,8 @@ section {
     width: 500px;
     border-style: solid;
     border-width: 3px;
-    border-color: #024e76;
+    border: 3px solid #024e76;
+    bottom: 120px;
+    right: 140px;
+    position: absolute
 }

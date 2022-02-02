@@ -68,10 +68,10 @@
   /* Hero Style Start */
   section {
       padding: 60px;
-      background-image: url(run-buddy\assets\images\hero-bg.jpg);
+      background-image: url"C:/Users/Titov/Desktop/projects/run-buddy/assets/images";
     }
   .hero {
-      background-image: url(run-buddy\assets\images\hero-bg.jpg);
+      background-image: url"C:/Users/Titov/Desktop/projects/run-buddy/assets/images";
       height: 600px;
       background-size: cover;
       background-position: center;

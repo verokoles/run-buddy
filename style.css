@@ -134,8 +134,8 @@
       padding: 60px;
       background-image: url("./assets/images/hero-bg.jpg");
     }
-  .hero {
-      background-image: url("./assets/images/hero-bg.jpg");
+    .hero {
+      background-color: #fce138;
       height: 600px;
       background-size: cover;
       background-position: center;
@@ -181,5 +181,42 @@
       padding: 10px 20px;
       font-size: 16px;
     }
-    /* HERO STYLES END *
-  
+    /* HERO STYLES END */
+    .trainers {
+      text-align: center;
+    }
+    .trainer {
+      width: 900px;
+      margin: 0 auto 30px auto;
+      background: #024e76;
+      color: #fce138;
+      overflow: auto;
+    }
+    .trainer img {
+      width: 35px;
+      float: left;
+    }
+    .trainer bio {
+      padding: 35px;
+      float: left;
+      width: 65%;
+    }
+    .text-left {
+      text-align: left;
+    }
+    .text-right {
+      text-align: right;
+    }
+    .trainer-bio h3 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+    .trainer-bio h4 {
+      font-weight: lighter;
+      font-size: 26px;
+      margin-bottom: 25px;
+    }
+    .trainer bio p {
+      font-size: 17px;
+      line-height: 1.3;
+    }

@@ -135,9 +135,9 @@
   /* Hero Style Start */
   section {
       padding: 60px;
-      background-image: url("./assets/images/hero-bg.jpg");
    }
   .hero {
+      background-image: url("./assets/images/hero-bg.jpg");
       height: 600px;
       background-size: cover;
       background-position: center;
@@ -232,11 +232,10 @@
     .section-title {
       font-size: 55px;
       display: inline-block;
-      background-color: #024e76;
-      padding: 0 100px 20px 100px
-      border-bottom: 3px solid
-      margin-bottom: 35px
-      color: #024e76
+      padding: 0 100px 20px 100px;
+      border-bottom: 3px solid;
+      margin-bottom: 35px;
+      color: #024e76;
     }
 /*Reach OUT STYLES START */
 .contact {
@@ -250,4 +249,12 @@
 .contact-info iframe {
   width: 400px;
   height: 400px;
+}
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color:white 
 }

@@ -91,6 +91,7 @@
   .steps {
       text-align: center;
       background: #fce138;
+      border-bottom: #024e76;
   }
  
   .section-title {
@@ -99,7 +100,7 @@
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     display: inline-block;
-    border-bottom: 3px solid;
+    border-bottom: 3px solid #024e76;
   }
   .steps div {
     margin-bottom: 80px;
@@ -200,11 +201,11 @@
       color:#fce138
     }
     .trainer img {
-      width: 35px;
+      width: 35%;
       float: left;
       overflow: auto;
     }
-    .trainer bio {
+    .trainer-bio {
       padding: 35px;
       float: left;
       width: 65%;
@@ -233,7 +234,7 @@
       font-size: 55px;
       display: inline-block;
       padding: 0 100px 20px 100px;
-      border-bottom: 3px solid;
+      border-bottom: 3px solid #fce136;
       margin-bottom: 35px;
       color: #024e76;
     }
@@ -244,7 +245,7 @@
 }
 
 .contact h2 {
-  color:#fce138
+  color:#fce136
 }
 .contact-info iframe {
   width: 400px;

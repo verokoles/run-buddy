@@ -179,17 +179,38 @@ section {
     flex: 1 12%;
     margin-right: 20px;
 }
-.steo-img img {
+.step-img img {
     max-width: 100%;
 }
 .step-text {
     flex: 12;
 }
 
-.trainers {}
-
-.contact {}
-
 .flex-row {
     display: flex;
+}
+.trainer-bio h3 {
+    font-size: 28px;
+}
+.trainer-bio h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.trainer-bio {
+    line-height: 1.5;
+    padding: 25px;
+}
+.trianer {
+    margin: 20px;
+    flex: 1;
+}
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.trainer img {
+    width: 100%;
 }

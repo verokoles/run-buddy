@@ -54,17 +54,18 @@
       background:  #fce138;
       width: 100%;
       padding: 40px 35px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
   }
   
   footer h2 {
-      display: inline;
       color: #024e76;
       font-size: 30px;
       margin: 0;
   }
   
   footer div {
-      float: right;
       line-height: 1.5;
       text-align: right;
   }
@@ -149,22 +150,20 @@
    }
   .hero {
       background-image: url("assets/images/hero-bg.jpg");
-      height: 600px;
       background-size: cover;
       background-position: center;
-      position: relative;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
     }
     /* Hero Style End */
   .hero-form {
       background-color: #fce138;
       padding: 20px;
-      width: 500px;
       color: #024e76;
-      border: 3px solid #024e76;
-      position: absolute;
-      bottom: 120px;
-      right: 140px;
-      
+      border: 3px solid #024e76;   
+      width: 40%;
+      margin: 3.5%;
   }
   
   .hero-form h3 {

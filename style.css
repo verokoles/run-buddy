@@ -74,7 +74,7 @@
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
+    border-bottom: 3px solid ;
     border-color: #fce138;
     display: inline-block;
     background-color: white;
@@ -93,17 +93,20 @@
       background: #fce138;
       border-bottom: #024e76;
   }
- 
+
   .section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid #024e76;
+   font-size: 55px;
+   display: inline-block;
+   padding: 0 100px 20px 100px;
+   border-bottom: 3px solid #024e76;
+   margin-bottom: 35px;
+   color: #024e76;
+   border-color: #024e76;
   }
+
   .steps div {
     margin-bottom: 80px;
+    border-bottom: #024e76;
   }
   
   .steps img {

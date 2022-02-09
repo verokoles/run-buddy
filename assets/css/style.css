@@ -45,7 +45,7 @@
   }
   
   header nav ul li a {
-      margin: 0 30px;
+      padding: 10px 15px;
       font-weight: lighter;
       font-size: 1.55vw;
   }
@@ -175,11 +175,13 @@
    }
   .hero {
       background-image: url("assets/images/hero-bg.jpg");
+      width: 100%;
       background-size: cover;
       background-position: center;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+      align-items: flex-start;
     }
     /* Hero Style End */
   .hero-form {
@@ -225,7 +227,7 @@
       margin: 3.5%;
       color: #fff;
       font-size: 18px;
-      line-height: 1.3;
+      line-height: 1.2;
   }
   .hero-cta h2 {
       font-style: italic;
@@ -280,7 +282,7 @@
       font-size: 17px;
     }
     .section-title {
-      font-size: 55px;
+      font-size: 48px;
       border-bottom: 3px solid #fce136;
       color: #024e76;
     }
@@ -387,4 +389,19 @@
 }
 .flex-row {
   display: flex;
+}
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
 }

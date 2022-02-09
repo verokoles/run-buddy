@@ -147,8 +147,45 @@ section {
 .intro p {
     text-align: center;
 }
-.steps {
+.step h3 {
+    margin-top: ;
+    flex: 1 30%;
 }
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.step-text p {
+    font-size: 18px;
+}
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color:#024e76;
+}
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.steo-img img {
+    max-width: 100%;
+}
+.step-text {
+    flex: 12;
+}
+
 .trainers {}
 
 .contact {}

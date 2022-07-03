@@ -5,7 +5,7 @@
 }
 
 body {
-  /* all body values for the page */
+  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -27,7 +27,7 @@ header a {
   text-decoration: none;
   color: #fce138;
 }
-/*  navigation section styling */
+
 header nav {
   float: right;
   margin: 7px 0;
